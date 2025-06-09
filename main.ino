@@ -30,7 +30,6 @@ void setup()
 
 void loop()
 {
-        /* do some kool shit */ 
         unsigned long curr_time = millis();
 
         if (curr_state == RED && curr_time - last_changed_state_time >= red_duration) {
